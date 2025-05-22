@@ -27,6 +27,6 @@ public class IbmStock extends StockAPI implements Tradable0 {
 
     @Override
     public String toString() {
-        return "Stock : name=" + this.getName() + ", price=" + this.getPrice() + ", description=" + this.getDescription() + ", Metric: " + this.getMetric() + "";
+        return "Stock [name=" + this.getName() + ", price=" + this.getPrice() + ", description=" + this.getDescription() + ", Metric: " + this.getMetric() + "]";
     }
 }
